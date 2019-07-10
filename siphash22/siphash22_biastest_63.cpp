@@ -1,5 +1,6 @@
 /*
 	Distinguishing Program - Bias Test for Input Differential Bit 63
+	For any question, please email to he-l17@mails.tsinghua.edu.cn.
 	
 	This program randomly chooses inputnum(internal parameter) pairs of input message differing on bit 63, \
 	  or say input1^input2 = 0x1000000000000000, and calculates corresponding biases of output bit 57.
