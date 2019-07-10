@@ -11,9 +11,9 @@
 	  but the authors still suggest the original version inputnum = 1048576 and keynum = 4096.
 	
 	Program must be executed with 2 operational parameters k(operational parameter) and n(operational parameter), \
-	  where k:1~63 indicates the input diffenrential bit and n:0~1 indicates the group tag.
+	  where k:01~63 indicates the input diffenrential bit and n:0~1 indicates the group tag.
 	i.e.:
-		./siphash21_condtest_k 37 0
+		./siphash21_condtest_k 07 0
 		./siphash21_condtest_k 43 1
 	
 	Keys are classified by the values of v2[k], v2[k-1] and v3[k-1] (after initialization):
