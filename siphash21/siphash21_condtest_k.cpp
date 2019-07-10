@@ -1,6 +1,7 @@
 /*
 	Key Classification Program - Data Generation
 		(For Analysis Program, see siphash21_analysis_k.cpp)
+	For any question, please email to he-l17@mails.tsinghua.edu.cn.
 	
 	This program will generate 4 groups of data, with keynum(internal parameter) randomized keys in each group.
 	For each key, program randomly chooses inputnum(internal parameter) pairs of input message differing on bit k(operational parameter), \
