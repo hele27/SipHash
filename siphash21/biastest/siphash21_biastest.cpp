@@ -12,8 +12,8 @@
 	
 	Program must be executed with 1 operational parameter k(operational parameter) where k:00~63 indicates the input diffenrential bit.
 	i.e.:
-		./siphash21_condtest_k 07
-		./siphash21_condtest_k 43
+		./siphash21_biastest 07
+		./siphash21_biastest 43
 	
 	Output Format
 		One execution will produce one output file named "sip21test_k.txt", where k can discriminate different execution.
